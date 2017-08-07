@@ -1,13 +1,9 @@
-# Swift Speech Recording
+# Smart Recording Speech with Swift 3
 
-Turn on listening and start to talk, this demo keep listening and recording in wav file chunks of your voice split everytime that you stop your speech and it start to record again with your speech
+A very simple demo app, in Swift 3, with a button to turn on recording. User starts talking and speech will be recorded until silence is detected. The output is saved into a WAV file. This is very useful to capture full sentences instead of length fixed audio chunks.
 
-This project was created to show you how to create a speech recording in Swift 3 and stopping capture when silent is detected. The result of recording will be a wav file with header and data correctly formated.
+I had issues getting WAV headers well formed. No much docummentation about that online. I finally was able to overcome this by learning about WAV specs http://soundfile.sapp.org/doc/WaveFormat/. The key trick was to use the function `convertAudio`. This function takes an url input of a m4a file, and converts it into a wav file.
 
-Everytime When it is created a wav file with swift 3 this add a extra header which sometimes create a lot of problems due to extra header not is allow by wav file specifications, in this demo I found a solution for this problem with the function `convertAudio`.
+If you have any questions please let me now at: johanjmoncada [at] gmail.com
 
-The function `convertAudio` take a url input of a m4a file and save in the output url the wav file with headers and data like is showed in this specifications: http://soundfile.sapp.org/doc/WaveFormat/
-
-If you have any questions please let me now at: johan@sancrisoft.com
-
-The code base to build this demo was take from https://github.com/fulldecent/FDSoundActivatedRecorder thank to William Entriken
+The base code to create this demo was taken from https://github.com/fulldecent/FDSoundActivatedRecorder/ Thanks to William Entriken for that.

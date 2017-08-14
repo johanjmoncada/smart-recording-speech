@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "95FFF3D6AA57EE533CF41CC27E6A3EC0E2280FC8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F16B56751362C5C065B0320A47D6183029758A3" : 9223372036854775807,
+    "95FFF3D6AA57EE533CF41CC27E6A3EC0E2280FC8" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4E8D15B3-B131-4D74-848C-0460FE362B52",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F16B56751362C5C065B0320A47D6183029758A3" : "FDSoundActivatedRecorder\/",
+    "95FFF3D6AA57EE533CF41CC27E6A3EC0E2280FC8" : "smart-recording-speech\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "smart-recording-speech",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "smart-recording-speech\/smart-recording-speech.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fulldecent\/FDSoundActivatedRecorder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F16B56751362C5C065B0320A47D6183029758A3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/johanjmoncada\/smart-recording-speech.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95FFF3D6AA57EE533CF41CC27E6A3EC0E2280FC8"
+    }
+  ]
+}
